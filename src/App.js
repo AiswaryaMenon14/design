@@ -1,18 +1,16 @@
-import Navigation from './Components/Navigation';
+
 import './App.css';
-import Contents from './Components/Contents'
-import Dowm from './Components/Dowm'
+
 import { useState } from 'react';
+import Home from './Components/Home';
 
 function App() {
  
 
   return (
     <div className="App" >
-      {/* hello world */}
-      <Navigation/>
-      <Contents />
-      <Dowm/> 
+      
+      <Home/>
 
     </div>
   );

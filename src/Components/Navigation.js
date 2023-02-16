@@ -1,15 +1,9 @@
-import Contents from './Contents'
+
 import './Style.css'
 import logo from '../Images/logo.png'
-import signin from '../Images/signin.png'
-import shopping from '../Images/shopping.png'
 
-import insta from '../Images/insta.png'
-import twit from '../Images/twit.png'
-import face from '../Images/face.png'
-import Dowm from './Dowm'
 
-function Navigation(){
+function Navigation({cart}){
 return (
     <div>
 
@@ -42,25 +36,14 @@ account_circle
 shopping_bag
 
 </span>
-<span className='cartcount'>sd</span>
+<span className='cartcount'>{cart}</span>
 
-          {/* <img src={shopping} width={25} height={25}></img> */}
+         
           </div>
         </div>
         </div>
         </div>
-        {/* <Contents/>
-         {/* <div className='nimage'>
-     
-         <div className='text'><h3>SCROLL DOWN</h3></div>
-         <div className='option'>
-        <div><img src={insta} width={15} height={15}></img></div>
-        <div><img src={twit} width={15} height={15}></img></div>
-        <div><img src={face} width={15} height={15}></img></div>
-        </div>
-         </div> */}
-        
-        {/* <Dowm/>  */}
+       
         </div>
       
 
